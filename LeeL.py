@@ -32,7 +32,7 @@ twf=[]
 ugen=[]
 ugen=[]
 for agent in range(10000):
-aa='Mozilla/5.0 (Linux; Android 10;'
+	aa='Mozilla/5.0 (Linux; Android 10;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['Vivo Y91C)'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
