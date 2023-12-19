@@ -32,20 +32,13 @@ twf=[]
 ugen=[]
 ugen=[]
 for xd in range(10000):
-    aa='Mozilla/5.0 (Windows NT 10.0; Win64; x64;'
-    b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['Windows NT 10.0; Win64; x64'])
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko)'
-    h=random.randrange(80,103)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Chrome/109.0.0.0 Safari/537.36 Vivaldi/5.6.2867.50'
-    uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-    ugen.append(uaku2)
+rug=[]
+for nt in range(10000):
+    rr=random.randint
+    aZ=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    rx=random.randrange(1, 999)
+    xx=f"Mozilla/5.0 (Windows NT 10.0; {str(rr(9,11))}; Win64; x64){str(aZ)}{str(rx)}{str(aZ)}) AppleWebKit/537.36 (KHTML, like Gecko){str(rr(99,149))}.0.{str(rr(4500,4999))}.{str(rr(35,99))} Chrome/{str(rr(99,175))}.0.{str(rr(0,5))}.{str(rr(0,5))} Safari/537.36"
+    rug.append(xx)
 def rndUA():
     andv=random.randint(1,20)
     device=f"SC-{random.randint(10,1000)}{random.choice('ABCDEF')}"
@@ -128,7 +121,7 @@ def sexx(ids,passlist):
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
                         random_seed = random.Random()
-                        ua=random.choice(ugen)
+                        ua=random.choice(rug)
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
                         cat = {
