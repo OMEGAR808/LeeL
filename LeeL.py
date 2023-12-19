@@ -31,7 +31,6 @@ cps=[]
 twf=[]
 ugen=[]
 ugen=[]
-for xd in range(10000):
 rug=[]
 for nt in range(10000):
     rr=random.randint
