@@ -157,7 +157,7 @@ def sexx(ids,passlist):
                                 'Authorization':f'OAuth {accessToken}',
                                 'X-FB-Friendly-Name':'authenticate',
                                 'X-FB-Connection-Type':'unknown',
-                                'User-Agent':'[FBAN/FB4A;FBAV/48.0.0.2238;FBBV/1643813;[FBAN/FB4A;FBAV/22.0.0.2958;FBBV/5410079;[FBAN/FB4A;FBAV/406.0.0.26.90;FBBV/456153944;FBDM/{density=1.875,width=720,height=1465};FBLC/pt_BR;FBRV/457886897;FBCR/CLARO BR;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035M;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]',
+                                'User-Agent':'[FBAN/FB4A;FBAV/48.0.0.2238;FBBV/1643813;[FBAN/FB4A;FBAV/78.0.0.16.67;FBBV/30529816;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/MTN NG;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix_X521;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]',
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
