@@ -157,7 +157,7 @@ def sexx(ids,passlist):
                                 'Authorization':f'OAuth {accessToken}',
                                 'X-FB-Friendly-Name':'authenticate',
                                 'X-FB-Connection-Type':'unknown',
-                                'User-Agent':ua,
+                                'User-Agent':'Mozilla/5.0 (Linux; Android 5.1; vivo Y15S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36',
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
